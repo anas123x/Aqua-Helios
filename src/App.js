@@ -1,8 +1,9 @@
+import ContactUsPage from "./ContactUs";
 
 function App() {
   return (
    <>
-   Hello World
+   <ContactUsPage />
    </>
   );
 }
