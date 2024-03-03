@@ -2,9 +2,10 @@ import React from 'react';
 import logo from '../images/logo.png';
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg fixed-top px-5"
+    <nav className="navbar navbar-expand-lg fixed-top px-5 mb-5 "
     style={{
       backgroundColor:"#053D57",
+     
     }} >
     <div className="container-fluid d-flex flex-row justify-content-between align-items-center">
       <img src={logo} alt="logo" style={{height:70,width:100}} className=" img-fluid align-self-center"/>

@@ -3,7 +3,7 @@ import HomePage from './pages/HomePage';
 import ProductPage from './pages/ProductPage';
 import ContactPage from './pages/ContactPage';
 import Navbar from './components/Navbar';
-
+import Footer from './components/Footer';
 function App() {
   return (
     <div>
@@ -15,6 +15,7 @@ function App() {
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
     </Router>
+    <Footer />
     </div>
   );
 }
